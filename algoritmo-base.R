@@ -14,8 +14,7 @@ pacotes <- c("readxl", # para ler planilha Excel
              "misc3d", # gráficos 3D
              "plot3D", # gráficos 3D
              "cluster", #função 'agnes' para elaboração de clusters hierárquicos
-             "factoextra", # função 'fviz_dend' para construção de dendrogramas
-             "ade4") # função 'ade4' para matriz de distâncias em var. binárias
+             "factoextra") # função 'fviz_dend' para construção de dendrogramas
 
 if(sum(as.numeric(!pacotes %in% installed.packages())) != 0){
   instalador <- pacotes[!pacotes %in% installed.packages()]
